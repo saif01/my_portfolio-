@@ -1,5 +1,5 @@
 <?php 
-require('mail/sendmail.php');
+include('mail/sendmail.php');
 
 
 ?>
@@ -38,25 +38,25 @@ $msg="
 
 
     
-					?>		
-					<script>
-					setTimeout(function () { 
-					        swal({
-					          title: "Successfully",
-					          text: "You Send E-Mail !!!",
-					          type: "success",
-					          confirmButtonText: "OK"
-					        },
-					        function(isConfirm){
-					          if (isConfirm) {
-					          	history.back();
-					            
-					          }
-					        }); },0);
+		?>		
+		<script>
+		setTimeout(function () { 
+		        swal({
+		          title: "Successfully",
+		          text: "You Send E-Mail !!!",
+		          type: "success",
+		          confirmButtonText: "OK"
+		        },
+		        function(isConfirm){
+		          if (isConfirm) {
+		          	history.back();
+		            
+		          }
+		        }); },0);
 
-					</script>
+		</script>
 
-				    <?php
+	    <?php
 				
 }
 

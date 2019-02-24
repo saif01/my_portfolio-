@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="portfolio Md. Syful Islam">
-    <meta name="keywords" content="php, developer, phpmysql, portfolio, web developer, laravel, bootstrap">
-    <meta name="author" content="Syful Islam">
+    <meta name="keywords" content="php, developer, phpmysql, portfolio, web developer, laravel, bootstrap, developer-syful">
+    <meta name="author" content="Syful Islam, developer-syful">
     <meta name="author" content="syful.cse.bd@gmail.com, saifulislamw60@gmail.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +14,7 @@
     <?php include('common/title.php'); ?>
 
     <!--=== Favicon ===-->
-        <link rel="shortcut icon" href="images/logo/syful.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logo/syful.png" type="image/x-icon" />
    
     <!--========== Theme Fonts ==========-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
@@ -50,8 +50,10 @@
      <!--My Coustom css-->
      <link rel="stylesheet" href="css/responsive.css">
 
-        <!-- vagas CSS Link -->
-    <link rel="stylesheet" type="text/css" href="vegas/style.css">
+    <!-- Snow Effect CSS -->
+     <link rel="stylesheet" type="text/css" href="snoweffect/snoweffect.css">
+
+
 
 
 </head>
@@ -68,8 +70,9 @@
     <!--navigation area ends-->
 
     <!--Banner area starts-->
+    <div id="snow_fall">
 
-    <div class="banner-area " id="home">
+    <div class="banner-area" id="home">
         <div class="banner-table">
             <div class="banner-table-cell">
                 <div class="welcome-text">
@@ -109,6 +112,8 @@
             </div>
         </div>
     </div>
+
+</div>
 
     <!--Banner area ends-->
 
@@ -611,7 +616,8 @@
                     <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.8s">
                         <i class="fa fa-envelope-o"></i>
                         <h2>Email</h2>
-                        <p>syful.cse.bd@gmail.com</p> <!--edit here-->
+                        <a href="mailto:syful.cse.bd@gmail.com"><p>syful.cse.bd@gmail.com </p></a>
+                         <!--edit here-->
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -684,15 +690,6 @@
 
     <!--Footer Area Ends-->
 
-    
-
-
-<!-- Vagas Slider JS --> 
-<!-- <script type="text/javascript" src="vegas/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="pluagins/vegus/vegas.js"></script>
-<script type="text/javascript" src="vegas/custom.js"></script> -->
-
-
 
 
     <!--Latest version JQuery-->
@@ -720,13 +717,17 @@
 	<script src="js/jquery.counterup.min.js"></script>
 
     <!--Validator js-->
-    <script src="js/validator.js"></script>
+   <!--  <script src="js/validator.js"></script> -->
 
     <!--Contact js-->
     <script src="js/contact.js"></script>
 
     <!--Main js-->
     <script src="js/main.js"></script>
+    
+    <!-- Snow Effect JS -->
+    <script type="text/javascript" src="snoweffect/particles.js" ></script>
+    <script type="text/javascript" src="snoweffect/app.js" ></script>
     
     <script>
 

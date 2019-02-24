@@ -7,7 +7,7 @@
                     <div class="main-menu">
                         <div class="navbar navbar-cus">
                             <div class="navbar-header">
-                                <a href="#about" class="navbar-brand"><span class="logo">Syful Islam</span></a> <!--edit site name here-->
+                                <a href="#about" class="navbar-brand"><span class="logo nav_saif">Syful Islam</span></a> <!--edit site name here-->
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
